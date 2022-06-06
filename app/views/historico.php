@@ -102,7 +102,7 @@ header("location: login.html");
          
           
     <!-------- F I N    F O R M ------------------------>
-    <!--<div class="squareH"> ---->
+    <!--<div class="squareH"> class ---->
           
 
     <table id="tbl" class="table table-striped table-bordered table-sm" style="border:3px solid #000; box-shadow: 0 0 25px grey; " >
