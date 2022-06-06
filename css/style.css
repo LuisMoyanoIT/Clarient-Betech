@@ -1,0 +1,201 @@
+/*nav-bar items right
+.mr-auto
+{
+    margin-right: auto !important;
+    
+}
+nav-bar items right*/
+
+
+.square
+{
+    height: 660px;
+    width: 900px;
+    margin-left: 15%;
+    margin-right:15%;
+    margin-top: 5%;
+    border:3px solid #000; 
+    /*background-color: bisque;*/
+    background-image: url("../img/squarebg.png");
+    box-shadow: 0 0 35px grey;
+    
+   
+}
+
+.squareH
+{
+    height: 600px;
+    width: 1200px;
+    margin-left:-3%;
+    margin-right:105px;
+    
+    
+    border:3px solid #000; 
+    /*background-color: bisque;*/
+    
+   
+}
+
+.estanque
+{
+    background-color:#888888; 
+    height:80%; 
+    width: 60%; 
+    margin-left: 10%;
+    /*margin-top:17%;*/
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius:20%;
+    border-top-right-radius:20%;
+    border: 1px solid #000;
+    
+}
+
+#show_porcentaje
+{
+    
+    width:70%;
+    margin-top:2%;
+    margin-left:35%;
+    text-align:center;
+}
+
+#capacidadAP511
+{
+    width:70%;
+    margin-top:2%;
+    margin-left:35%;
+    text-align:center;
+
+}
+
+#capacidadAP840
+{
+    width:70%;
+    margin-top:2%;
+    margin-left:35%;
+    text-align:center;
+
+}
+
+#capacidadAP430
+{
+    width:70%;
+    margin-top:2%;
+    margin-left:35%;
+    text-align:center;
+
+}
+
+.contenedor_porcentaje
+{
+    background-color:white;
+    height:80%;
+    width:65%;
+    margin-left:17%;
+    margin-top:16%;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius:5%;
+    border-top-right-radius:5%;
+    border: 1px solid #000;
+    
+}
+
+.pool
+{
+    height:100%; 
+    background-color:#1DBFBF; 
+    border: 2px solid #000; 
+    width:60%; 
+    margin-left:5%;
+    border-bottom-left-radius: 7%;
+    border-bottom-right-radius: 7%;
+    border-top-left-radius:7%;
+    border-top-right-radius:7%;
+}
+
+.leyenda
+{
+    background-color:white;
+    
+    margin-left:117%;
+    width:240px;
+    height:240px;
+    border:3px solid #000;
+    box-shadow: 0 0 25px grey;
+    
+}
+
+.rectangle
+{
+    margin-top:2%;
+    margin-left:3%;
+    background-color: whitesmoke;
+    width:1200px;
+    height:400px;
+    border:3px solid #000;
+    box-shadow: 0 0 35px grey;
+}
+
+
+/*inicio css toggle botton*/
+
+
+/*fin css toggle botton*/
+/*inicio de fotos tuberia*/
+.column0-1
+{
+    background-image: url("../img/column0-1.png");
+}
+
+.column0-2
+{
+    background-image: url("../img/column0-2.png");
+
+}
+
+.column0-0
+{
+    background-image: url("../img/column0-0.png");
+}
+
+.column1-0
+{
+    background-image: url("../img/column1-0.png");
+}
+
+.column2-1
+{
+    background-image: url("../img/column2-1.png");
+}
+
+.column2-0
+{
+    background-image: url("../img/column2-0.png");
+}
+
+.column2-2
+{
+    background-image: url("../img/betech-logo.png");
+    /* background-position: 30px 20px;
+    
+    background-size: 80% 60%; */
+    background-repeat: no-repeat !important;
+    margin-left:30%;
+    margin-top: 60%;
+}
+
+.column2
+{
+    background-image: url("../img/column2bg.png");
+}
+
+.column3
+{
+    background-image: url("../img/column3bg.png");
+}
+
+
+
+/*fin de fotos tuberia*/

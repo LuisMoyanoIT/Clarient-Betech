@@ -1,0 +1,93 @@
+<!-- Define que el documento esta bajo el estandar de HTML 5 -->
+<!doctype html>
+
+<!-- Representa la raíz de un documento HTML o XHTML. Todos los demás elementos deben ser descendientes de este elemento. -->
+<html lang="es">
+    
+    <head>
+        
+        <meta charset="utf-8">
+        
+        <title>Betech.cl</title>
+        <link rel="icon" type="image/png" href="img/b-logo2.png"/>    
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Videojuegos & Desarrollo">
+        <meta name="description" content="Ejemplo de formulario de acceso basado en HTML5 y CSS">
+        <meta name="keywords" content="login,formulariode acceso html">
+        
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet"> 
+        
+        <!-- Link hacia el archivo de estilos css -->
+        <link rel="stylesheet" href="../../css/login.css">
+        
+        <style type="text/css">
+            
+        </style>
+        
+        <script type="text/javascript">
+        
+        </script>
+        
+    </head>
+    
+    <body>
+    
+        <div id="contenedor">
+            
+            <div id="contenedorcentrado">
+                <div id="login">
+                    <form id="loginform" method="POST" action="" enctype="multipart/form-data">
+                        <label for="usuario"><b>Usuario</b></label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" >
+                        
+                        <label for="password"><b>Contraseña</b></label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" >
+                        
+                        <button id="iniciar" title="Ingresar" name="Ingresar"><b>Iniciar sesión</b></button>
+                    </form>
+                    
+                </div>
+                <div id="derecho">
+                    <hr>
+                    <div class="titulo" style="color:white;">
+                        Sistema de control
+                        Clariant
+                    </div>
+                    
+                    <div class="pie-form">
+                        
+                        <hr>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!-------- S C R I P T S ----------------------------------------->
+  
+<script src="..\..\external/bootstrap/js/popper.min.js"></script>
+<script src="..\..\external/bootstrap/js/jquery.min.js"></script>
+
+<script src="..\..\external/bootstrap/js/bootstrap.min.js"></script>
+<link href="..\..\external/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+<!-- Jquery -->
+
+
+<!-- Swal, es decir Sweet Alert -->
+<script src="../../external/swal/sweetalert2.all.js"></script>
+  <script type="text/javascript" src="..\..\external\jquery-uimin.js"></script>
+  <script src="..\..\external/mont.js"></script>
+<script src="..\..\external/datatables.min.js"></script>
+<script src="..\..\external/table2excel.js"></script>
+
+<script src="..\..\external/jspdf.min.js"></script>
+<script src="..\..\external/jspdf.plugin.autotable.js"></script>
+<script src="..\..\external/FileSaver.js"></script>
+<script lang="javascript" src="..\..\external/xlsx.full.min.js"></script>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+
+  <!--------- S C R I P T S ---------------------------------------->
+    <script src="../../scripts/login.js"></script>    
+    </body>
+</html>
